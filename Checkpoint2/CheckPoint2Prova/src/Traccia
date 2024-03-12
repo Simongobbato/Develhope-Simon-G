@@ -1,0 +1,23 @@
+Creare una Classe astratta persona con gli attributi:
+    nome: String
+    cognome: String
+    dataNascita: LocalDate
+
+Creare una classe Studente sottoclasse di Persona con
+ gli attributi:
+    matricola: String
+    corso di studi: String
+
+e una classe Docente che estende Persona con
+    materia: String
+    stipendio: double
+Creare una classe Ateneo con una Mappa di persone (scegliere un identificativo)
+- scrivere un metodo per creare una nuova Persona (studente o docente)
+- scrivere un metodo per modificare una Persona
+    - creare e gestire un'eccezione personalizzata nel caso la persona non esista
+- scrivere un metodo che stampi tutte le persone  nella mappa
+- scrivere un metodo che stampi le persone ordinandole per cognome
+- scrivere un metodo che stampi le persone per data di nascita
+- scrivere un metodo che stampi tutti i docenti
+- scrivere un metodo che calcoli la spesa mensile per i docenti dell'ateneo
+- scrivere un metodo che stampi tutte le materie insegnate senza duplicati

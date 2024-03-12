@@ -1,0 +1,53 @@
+/*
+Traccia dell'esercizio: Gestione di Attività
+
+Obiettivo:
+Implementare un'applicazione Java per la gestione di attività
+di diversi tipi (lavoro, svago, sport, studio) svolte in date diverse.
+
+Requisiti:
+
+Utilizzare il concetto di polimorfismo per gestire diversi tipi di attività.
+Utilizzare un'enumerazione per rappresentare i tipi di attività disponibili.
+Utilizzare mappe per memorizzare le attività in base alla data.
+Utilizzare la classe Date per rappresentare le date delle attività.
+Utilizzare liste per memorizzare più attività svolte nella stessa data.
+Dettagli dell'esercizio:
+
+Definire una classe astratta Attivita con i seguenti attributi:
+
+nome (String): il nome dell'attività.
+tipo (TipoAttivita): il tipo di attività (definito come enum).
+data (Date): la data in cui l'attività è stata svolta.
+Un costruttore per inizializzare gli attributi.
+Un metodo astratto svolgi() che verrà implementato dalle sottoclassi.
+Definire un'enumerazione TipoAttivita che rappresenta i tipi di
+attività disponibili (lavoro, svago, sport, studio)._
+
+Definire almeno due sottoclassi di Attivita:
+
+Lavoro: rappresenta un'attività lavorativa.
+Svago: rappresenta un'attività di svago.
+Creare una classe GestoreAttivita che includa:
+
+Un campo dati attivitaPerData di tipo Map<Date, List<Attivita>>
+ per memorizzare le attività in base alla data.
+Un campo dati attivitaPerData di tipo Map<Date, List<Attivita>>
+ per memorizzare le attività in base alla data.
+Un metodo aggiungiAttivita(Attivita attivita) per aggiungere un'attività
+alla mappa.
+Un metodo visualizzaAttivitaPerData(Date data) per visualizzare
+le attività svolte in una data specifica.
+Nel metodo main, istanziare un oggetto di tipo GestoreAttivita
+e aggiungere alcune attività di lavoro e di svago per diverse date.
+Successivamente, visualizzare le attività per una data specifica.
+
+Suggerimenti:
+
+Utilizzare la classe SimpleDateFormat per formattare le date in modo leggibile.
+Assicurarsi di importare correttamente le classi necessarie
+(ad esempio java.util.Date, java.util.Map, java.util.List, ecc.).
+stampa tutti tutte le attivita di tipo lavoro,
+fai un metodo per cancellare una attivitá
+🔖 Traccia dell'esercizio: Gestione di Eventi e Prenotazioni
+ */
